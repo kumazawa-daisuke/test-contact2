@@ -48,14 +48,62 @@
     text-align: left;
 }
 
-.form__input--text input,
-.form__input--textarea textarea {
-    padding: 10px;
-    width: 600px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
+.form__input--text,
+.form__input--textarea{
+    /* padding: 10px; */
+    /* width: 600px; */
+    /* border: 1px solid #f4f4f4; */
+    /* border-radius: 3px; */
+    /* background: #f4f4f4; */
+    /* color:#c5b9b0; */
+    display:flex;
+    /* justify-content:space-between; */
 
     appearance: none;
+}
+
+.form__input--first_name{
+    padding: 10px 20px;
+    width: 250px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #8b7969;
+    font-size: 16px;
+}
+
+.form__input--last_name{
+    padding: 10px 20px;
+    width: 250px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #8b7969;
+    margin-left:40px;
+    font-size: 16px;
+}
+
+.form__input--radio{
+    width: 700px;
+    color: #8b7969;
+    font-size:20px;
+
+    appearance: none;
+}
+
+.form__input--radio-female,
+.form__input--radio-other{
+    margin-left:40px;
+}
+
+.form__input--email {
+    padding: 10px 20px;
+    width: 540px;
+    border: 1px solid #f4f4f4;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #8b7969;
+    font-size: 16px;
 }
 
 .form__input--text input {

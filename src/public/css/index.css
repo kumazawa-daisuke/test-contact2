@@ -1,29 +1,19 @@
-.header {
-    background: #000;
-}
-
-.header__inner {
-    margin: 0 auto;
-    padding: 20px 15px;
-    max-width: 1230px;
-}
-
-.header__logo {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 24px;
-}
-
 .contact-form__content {
     margin: 0 auto;
     padding: 30px 15px;
     max-width: 1230px;
 }
 
-.contact-form__heading {
+.contact-form__heading { 
     margin-bottom: 40px;
     text-align: center;
+}
+
+.contact-form__title{
+    color: #8b7969;
+    font-family: Georgia, serif;
+    font-weight: lighter;
+    font-size: 40px;
 }
 
 .form {
@@ -38,12 +28,18 @@
     margin-bottom: 15px;
 }
 
+.form__label--item{
+    color: #8b7969;
+    font-size: 20px;
+}
+
 .form__label--required {
     margin-left: 5px;
-    padding: 4px 6px;
-    border-radius: 3px;
-    background: #fafafa;
-    color: #aaa;
+    /* padding: 4px 6px; */
+    /* border-radius: 3px; */
+    /* background: #fafafa; */
+    color: #ff9494;
+    font-size: 20px;
 }
 
 .form__error {

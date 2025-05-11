@@ -12,7 +12,7 @@
 
 .header__logo {
     color: #8b7969;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-family: Georgia, serif;
     /* font-weight: bold; */
     font-size: 40px;

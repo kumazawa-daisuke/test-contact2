@@ -1,5 +1,5 @@
 .header {
-    background: red;
+    background: #ffffff;
 }
 
 .header__inner {
@@ -8,14 +8,10 @@
     padding: 20px 15px;
     /* max-width: 1230px; */
     border-bottom:solid 1px #e0dfde;
-    background-color: red;
 }
 
 .header__logo {
     color: #8b7969;
-    display: inline-block;
-    border:1px;
-    background-color: red;
     /* text-decoration: none; */
     font-family: Georgia, serif;
     /* font-weight: bold; */
